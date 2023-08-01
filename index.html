@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
 
-<div id="main">
-  <h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-</div>
+    <div id="main">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
 
-<script src="button_navbar.js"> </script>
-   
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <svg class="burger" onclick="openNav()" width="46" height="46" viewBox="0 0 46 46" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.5" y="0.5" width="45" height="45" rx="14.5" fill="#00A357" fill-opacity="0.75"
+                        stroke="black" />
+                    <path d="M7 23H39" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    <path d="M7 32H39" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    <path d="M7 14H39" stroke="white" stroke-width="3" stroke-linecap="round" />
+                </svg>
+
+                <a class="navbar-brand" href="#">
+                    <img src="img/dlsu.png" width="55" height="55" class="d-inline-block align-top" alt="">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" href="#">Home </a>
+                            <a class="nav-item nav-link" href="#">Contact </a>
+
+                        </div>
+                    </div>
+            </nav>
+        </div>
+        <h2>BLABLA</h2>
+        <p>LOREM IPSUM THINGS</p>
+
+    </div>
+
+    <script src="/js/button_navbar.js"> </script>
+
 </body>
-</html> 
+
+</html>
