@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
+  caret-color: transparent;
 }
 
 .navbar {
