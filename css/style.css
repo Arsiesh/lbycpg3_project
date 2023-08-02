@@ -108,6 +108,25 @@ color: #FFFFFF;
   height: auto;
 }
 
+.main_contents {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.main_contents h2 {
+  color: #003D21;
+  font-family: "Roboto";
+}
+
+.main_contents h3 {
+  color: #003D21;
+  font-family: "Roboto";
+}
+
+.main_contents a {
+  color: #003D21;
+  font-family: "Roboto";
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
