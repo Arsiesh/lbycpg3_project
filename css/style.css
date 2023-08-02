@@ -48,6 +48,8 @@ color: #FFFFFF;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+
+
 }
 
 .sidenav a {
@@ -101,6 +103,10 @@ color: #FFFFFF;
 
 }
 
+.image img {
+  width: 100%;
+  height: auto;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {
