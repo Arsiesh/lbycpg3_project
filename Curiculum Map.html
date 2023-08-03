@@ -78,8 +78,8 @@
             <img src="/img/home.png"></img>
         </div>
         <div class="main_contents">
-            <button onclick="ECE()">B.S. in Electronics Engineering</button>
-            <button onclick="CPE()">B.S. in Computer Engineering</button>
+            <button id="ECEbut" onclick="ECE()">B.S. in Electronics Engineering</button>
+            <button  id="CPEbut" onclick="CPE()">B.S. in Computer Engineering</button>
             <h2>Curriculum Map</h2>
             <div id = "ECE"><a>Table 2-1.4 Curriculum Map (Program-specific Courses)</a>
             <table width="611">
@@ -2778,6 +2778,8 @@
             if (xECE.style.display === "none") {
                 xECE.style.display = "block";
                 xCPE.style.display = "none"; // Hide the CPE portion
+                document.getElementById("ECEbut").disabled = true;
+                document.getElementById("CPEbut").disabled = false;
             } else {
                 xECE.style.display = "none"; // Hide the ECE portion
             }
@@ -2790,6 +2792,8 @@
             if (xCPE.style.display === "none") {
                 xCPE.style.display = "block";
                 xECE.style.display = "none"; // Hide the ECE portion
+                document.getElementById("CPEbut").disabled = true;
+                document.getElementById("ECEbut").disabled = false;
             } else {
                 xCPE.style.display = "none"; // Hide the CPE portion
             }
