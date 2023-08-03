@@ -1,0 +1,38 @@
+.main_contents {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.main_contents h2 {
+  color: #003D21;
+  font-family: "Roboto";
+}
+
+.main_contents h3 {
+  color: #003D21;
+  font-family: "Roboto";
+}
+
+.main_contents a {
+  color: #003D21;
+  font-family: "Roboto";
+}
+
+.vc_row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; 
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container p {
+  margin: 0;
+}
+
