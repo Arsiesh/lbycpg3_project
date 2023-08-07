@@ -139,6 +139,10 @@ body {
     font-family: "Roboto";
 }
 
+.main_contents table {
+    max-width: 95%;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
